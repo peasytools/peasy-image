@@ -9,7 +9,7 @@ Python image toolkit -- 21 operations for resize, crop, rotate, compress, conver
 
 Built for [peasyimage.com](https://peasyimage.com), which offers free interactive tools for image resizing, compression, format conversion, metadata stripping, and more. The site serves as the reference implementation and hosts the REST API, glossary, and developer guides that complement this library.
 
-> **Try the interactive tools at [peasyimage.com](https://peasyimage.com)** -- [Resize Image](https://peasyimage.com/tools/resize-image/), [Compress Image](https://peasyimage.com/tools/compress-image/), [Convert Image](https://peasyimage.com/tools/convert-image/), [Strip Metadata](https://peasyimage.com/tools/strip-metadata/), [Watermark Image](https://peasyimage.com/tools/watermark-image/)
+> **Try the interactive tools at [peasyimage.com](https://peasyimage.com)** -- [Image Tools](https://peasyimage.com/), [Image Glossary](https://peasyimage.com/glossary/), [Image Guides](https://peasyimage.com/guides/)
 
 <p align="center">
   <img src="demo.gif" alt="peasy-image demo — resize, compress, convert images in Python" width="800">
@@ -113,7 +113,7 @@ avatar = thumbnail("portrait.jpg", size=256, fmt="webp")
 padded = pad("product.png", target_width=1200, target_height=1200, color="#ffffff")
 ```
 
-Learn more: [Image Resize Tool](https://peasyimage.com/tools/resize-image/) · [Crop Image Tool](https://peasyimage.com/tools/crop-image/) · [What is Aspect Ratio?](https://peasyimage.com/glossary/aspect-ratio/)
+Learn more: [PeasyImage](https://peasyimage.com/) · [Aspect Ratio Glossary](https://peasyimage.com/glossary/aspect-ratio/)
 
 ### Format Conversion
 
@@ -145,7 +145,7 @@ ico_bytes = convert("logo.png", fmt="ico")
 tiff_bytes = convert("frame.webp", fmt="tiff")
 ```
 
-Learn more: [Convert Image Tool](https://peasyimage.com/tools/convert-image/) · [PNG vs JPEG vs WebP Guide](https://peasyimage.com/guides/png-vs-jpeg-vs-webp/) · [What is WebP?](https://peasyimage.com/glossary/webp/)
+Learn more: [PeasyImage](https://peasyimage.com/) · [Image Guides](https://peasyimage.com/guides/) · [WebP Glossary](https://peasyimage.com/glossary/webp/)
 
 ### Image Compression
 
@@ -166,7 +166,7 @@ email_img = compress("photo.png", quality=50, fmt="jpeg")
 webp_small = compress("photo.jpg", quality=65, fmt="webp")
 ```
 
-Learn more: [Compress Image Tool](https://peasyimage.com/tools/compress-image/) · [Image Compression Guide](https://peasyimage.com/guides/image-compression/) · [What is Lossy Compression?](https://peasyimage.com/glossary/lossy-compression/)
+Learn more: [PeasyImage](https://peasyimage.com/) · [Image Guides](https://peasyimage.com/guides/) · [Lossy Compression Glossary](https://peasyimage.com/glossary/lossy-compression/)
 
 ### Image Enhancement
 
@@ -203,7 +203,7 @@ bw = grayscale("portrait.jpg", fmt="jpeg", quality=90)
 negative = invert("photo.png")
 ```
 
-Learn more: [Image Filter Tools](https://peasyimage.com/tools/blur-image/) · [What is Gaussian Blur?](https://peasyimage.com/glossary/gaussian-blur/) · [Image Sharpening Guide](https://peasyimage.com/guides/sharpen-images/)
+Learn more: [PeasyImage](https://peasyimage.com/) · [Gaussian Blur Glossary](https://peasyimage.com/glossary/gaussian-blur/) · [Image Guides](https://peasyimage.com/guides/)
 
 ### Watermarking & Overlays
 
@@ -245,7 +245,7 @@ branded = overlay(
 )
 ```
 
-Learn more: [Watermark Image Tool](https://peasyimage.com/tools/watermark-image/) · [What is Image Watermarking?](https://peasyimage.com/glossary/watermark/)
+Learn more: [PeasyImage](https://peasyimage.com/) · [Watermark Glossary](https://peasyimage.com/glossary/watermark/)
 
 ### Thumbnails & Padding
 
@@ -264,7 +264,7 @@ square = pad("landscape.jpg", target_width=1080, target_height=1080, color="#fff
 pin = pad("photo.jpg", target_width=1000, target_height=1500, color="#1a1a1a")
 ```
 
-Learn more: [Thumbnail Generator](https://peasyimage.com/tools/thumbnail/) · [Image Padding Tool](https://peasyimage.com/tools/pad-image/)
+Learn more: [PeasyImage](https://peasyimage.com/) · [Image Glossary](https://peasyimage.com/glossary/)
 
 ### Visual Effects
 
@@ -293,7 +293,7 @@ framed = border("product.png", width=4, color="#000000")
 card = round_corners("screenshot.png", radius=20)
 ```
 
-Learn more: [Rotate Image Tool](https://peasyimage.com/tools/rotate-image/) · [Image Border Generator](https://peasyimage.com/tools/border-image/) · [What is Image Rotation?](https://peasyimage.com/glossary/rotation/)
+Learn more: [PeasyImage](https://peasyimage.com/) · [Image Rotation Glossary](https://peasyimage.com/glossary/rotation/)
 
 ### Metadata & Privacy
 
@@ -324,7 +324,7 @@ print(f"ISO: {exif.iso}, Exposure: {exif.exposure_time}, f/{exif.f_number}")
 clean = strip_metadata("photo.jpg", fmt="jpeg", quality=90)
 ```
 
-Learn more: [Strip Metadata Tool](https://peasyimage.com/tools/strip-metadata/) · [What is EXIF Data?](https://peasyimage.com/glossary/exif/) · [Image Privacy Guide](https://peasyimage.com/guides/image-metadata-privacy/)
+Learn more: [PeasyImage](https://peasyimage.com/) · [EXIF Glossary](https://peasyimage.com/glossary/exif/) · [Image Guides](https://peasyimage.com/guides/)
 
 ## Input Flexibility
 
@@ -529,8 +529,8 @@ Full API documentation at [peasyimage.com/developers/](https://peasyimage.com/de
 
 ## Learn More About Image Processing
 
-- **Tools**: [Resize Image](https://peasyimage.com/tools/resize-image/) · [Compress Image](https://peasyimage.com/tools/compress-image/) · [Convert Image](https://peasyimage.com/tools/convert-image/) · [Strip Metadata](https://peasyimage.com/tools/strip-metadata/) · [Watermark Image](https://peasyimage.com/tools/watermark-image/)
-- **Guides**: [PNG vs JPEG vs WebP](https://peasyimage.com/guides/png-vs-jpeg-vs-webp/) · [Image Compression Guide](https://peasyimage.com/guides/image-compression/) · [Image Metadata Privacy](https://peasyimage.com/guides/image-metadata-privacy/) · [Sharpen Images Guide](https://peasyimage.com/guides/sharpen-images/)
+- **Tools**: [PeasyImage Tools](https://peasyimage.com/)
+- **Guides**: [Image Processing Guides](https://peasyimage.com/guides/)
 - **Glossary**: [EXIF](https://peasyimage.com/glossary/exif/) · [Aspect Ratio](https://peasyimage.com/glossary/aspect-ratio/) · [Gaussian Blur](https://peasyimage.com/glossary/gaussian-blur/) · [WebP](https://peasyimage.com/glossary/webp/) · [Lossy Compression](https://peasyimage.com/glossary/lossy-compression/)
 - **API**: [REST API Docs](https://peasyimage.com/developers/) · [OpenAPI Spec](https://peasyimage.com/api/openapi.json)
 
@@ -550,8 +550,8 @@ Part of the [Peasy Tools](https://peasytools.com) open-source developer tools ec
 | **peasy-image** | [PyPI](https://pypi.org/project/peasy-image/) | [npm](https://www.npmjs.com/package/peasy-image) | 21 image operations: resize, crop, compress, convert, watermark -- [peasyimage.com](https://peasyimage.com) |
 | peasy-pdf | [PyPI](https://pypi.org/project/peasy-pdf/) | [npm](https://www.npmjs.com/package/peasy-pdf) | PDF merge, split, rotate, compress, extract, encrypt -- [peasypdf.com](https://peasypdf.com) |
 | peasy-css | [PyPI](https://pypi.org/project/peasy-css/) | [npm](https://www.npmjs.com/package/peasy-css) | CSS gradients, shadows, borders, flexbox, grid, animations -- [peasycss.com](https://peasycss.com) |
-| peasy-compress | [PyPI](https://pypi.org/project/peasy-compress/) | [npm](https://www.npmjs.com/package/peasy-compress) | ZIP, TAR, gzip, bz2, lzma archive operations -- [peasycompress.com](https://peasycompress.com) |
-| peasy-document | [PyPI](https://pypi.org/project/peasy-document/) | [npm](https://www.npmjs.com/package/peasy-document) | Markdown, HTML, CSV, JSON document conversion -- [peasydocument.com](https://peasydocument.com) |
+| peasy-compress | [PyPI](https://pypi.org/project/peasy-compress/) | [npm](https://www.npmjs.com/package/peasy-compress) | ZIP, TAR, gzip, bz2, lzma archive operations -- [peasytools.com](https://peasytools.com) |
+| peasy-document | [PyPI](https://pypi.org/project/peasy-document/) | [npm](https://www.npmjs.com/package/peasy-document) | Markdown, HTML, CSV, JSON document conversion -- [peasytools.com](https://peasytools.com) |
 | peasy-audio | [PyPI](https://pypi.org/project/peasy-audio/) | -- | Audio convert, trim, merge, normalize, analyze -- [peasyaudio.com](https://peasyaudio.com) |
 | peasy-video | [PyPI](https://pypi.org/project/peasy-video/) | -- | Video trim, resize, extract audio, thumbnails, GIF -- [peasyvideo.com](https://peasyvideo.com) |
 | peasy-convert | [PyPI](https://pypi.org/project/peasy-convert/) | -- | Unified CLI for all Peasy tools -- [peasytools.com](https://peasytools.com) |
