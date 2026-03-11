@@ -1,6 +1,6 @@
 [project]
 name = "peasy-image"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python image toolkit — resize, crop, rotate, convert, compress, blur, sharpen, watermark, and 12 more operations. Powered by Pillow."
 readme = "README.md"
 license = "MIT"
