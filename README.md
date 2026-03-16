@@ -1,6 +1,6 @@
 # peasy-image
 
-[![PyPI](https://img.shields.io/pypi/v/peasy-image)](https://pypi.org/project/peasy-image/)
+[![PyPI version](https://agentgif.com/badge/pypi/peasy-image/version.svg)](https://pypi.org/project/peasy-image/)
 [![Python](https://img.shields.io/pypi/pyversions/peasy-image)](https://pypi.org/project/peasy-image/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Dependencies: 1](https://img.shields.io/badge/dependencies-1_(Pillow)-blue)](https://pypi.org/project/peasy-image/)
