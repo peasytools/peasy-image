@@ -113,7 +113,7 @@ avatar = thumbnail("portrait.jpg", size=256, fmt="webp")
 padded = pad("product.png", target_width=1200, target_height=1200, color="#ffffff")
 ```
 
-Learn more: [PeasyImage](https://peasyimage.com/) · [Aspect Ratio Glossary](https://peasyimage.com/glossary/aspect-ratio/)
+Learn more: [Resize Image Tool](https://peasyimage.com/image/resize-image/) · [Crop Image Tool](https://peasyimage.com/image/crop-image/) · [What is Aspect Ratio?](https://peasyimage.com/glossary/aspect-ratio/)
 
 ### Format Conversion
 
@@ -145,7 +145,7 @@ ico_bytes = convert("logo.png", fmt="ico")
 tiff_bytes = convert("frame.webp", fmt="tiff")
 ```
 
-Learn more: [PeasyImage](https://peasyimage.com/) · [Image Guides](https://peasyimage.com/guides/) · [WebP Glossary](https://peasyimage.com/glossary/webp/)
+Learn more: [Convert Image Tool](https://peasyimage.com/image/convert-image/) · [Image Format Comparison](https://peasyimage.com/guides/image-format-comparison/) · [What is WebP?](https://peasyimage.com/glossary/webp/)
 
 ### Image Compression
 
@@ -166,7 +166,7 @@ email_img = compress("photo.png", quality=50, fmt="jpeg")
 webp_small = compress("photo.jpg", quality=65, fmt="webp")
 ```
 
-Learn more: [PeasyImage](https://peasyimage.com/) · [Image Guides](https://peasyimage.com/guides/) · [Lossy Compression Glossary](https://peasyimage.com/glossary/lossy-compression/)
+Learn more: [Compress Image Tool](https://peasyimage.com/image/compress-image/) · [How to Compress Images for Web](https://peasyimage.com/guides/how-to-compress-images-for-web/) · [What is Lossy Compression?](https://peasyimage.com/glossary/lossy-compression/)
 
 ### Image Enhancement
 
@@ -203,7 +203,7 @@ bw = grayscale("portrait.jpg", fmt="jpeg", quality=90)
 negative = invert("photo.png")
 ```
 
-Learn more: [PeasyImage](https://peasyimage.com/) · [Gaussian Blur Glossary](https://peasyimage.com/glossary/) · [Image Guides](https://peasyimage.com/guides/)
+Learn more: [How to Resize Images Without Losing Quality](https://peasyimage.com/guides/how-to-resize-images-without-losing-quality/) · [What is Color Grading?](https://peasyimage.com/glossary/color-grading-image/) · [What is Bit Depth?](https://peasyimage.com/glossary/bit-depth/)
 
 ### Watermarking & Overlays
 
@@ -245,7 +245,7 @@ branded = overlay(
 )
 ```
 
-Learn more: [PeasyImage](https://peasyimage.com/) · [Watermark Glossary](https://peasyimage.com/glossary/)
+Learn more: [Watermark Image Tool](https://peasyimage.com/image/watermark-image/) · [What is Alpha Compositing?](https://peasyimage.com/glossary/alpha-compositing/) · [What is an Alpha Channel?](https://peasyimage.com/glossary/alpha-channel/)
 
 ### Thumbnails & Padding
 
@@ -264,7 +264,7 @@ square = pad("landscape.jpg", target_width=1080, target_height=1080, color="#fff
 pin = pad("photo.jpg", target_width=1000, target_height=1500, color="#1a1a1a")
 ```
 
-Learn more: [PeasyImage](https://peasyimage.com/) · [Image Glossary](https://peasyimage.com/glossary/)
+Learn more: [Social Media Image Sizes](https://peasyimage.com/guides/social-media-image-sizes-2025/) · [What is Batch Resize?](https://peasyimage.com/glossary/batch-resize/) · [What is Canvas?](https://peasyimage.com/glossary/canvas/)
 
 ### Visual Effects
 
@@ -293,7 +293,7 @@ framed = border("product.png", width=4, color="#000000")
 card = round_corners("screenshot.png", radius=20)
 ```
 
-Learn more: [PeasyImage](https://peasyimage.com/) · [Image Rotation Glossary](https://peasyimage.com/glossary/)
+Learn more: [Rotate Image Tool](https://peasyimage.com/image/rotate-image/) · [Flip Image Tool](https://peasyimage.com/image/flip-image/) · [Round Corners Tool](https://peasyimage.com/image/round-corners/)
 
 ### Metadata & Privacy
 
@@ -324,7 +324,7 @@ print(f"ISO: {exif.iso}, Exposure: {exif.exposure_time}, f/{exif.f_number}")
 clean = strip_metadata("photo.jpg", fmt="jpeg", quality=90)
 ```
 
-Learn more: [PeasyImage](https://peasyimage.com/) · [EXIF Glossary](https://peasyimage.com/glossary/exif/) · [Image Guides](https://peasyimage.com/guides/)
+Learn more: [What is EXIF?](https://peasyimage.com/glossary/exif/) · [How to Optimize Images for SEO](https://peasyimage.com/guides/how-to-optimize-images-for-seo/) · [What is Chroma Subsampling?](https://peasyimage.com/glossary/chroma-subsampling/)
 
 ## Input Flexibility
 
@@ -534,10 +534,10 @@ Full API documentation at [peasyimage.com/developers/](https://peasyimage.com/de
 
 ## Learn More About Image Processing
 
-- **Tools**: [Image Resize](https://peasyimage.com/image/resize-image/) · [Image Compress](https://peasyimage.com/image/compress-image/) · [Image Convert](https://peasyimage.com/image/convert-image/) · [All Image Tools](https://peasyimage.com/)
-- **Guides**: [Image Compression Guide](https://peasyimage.com/guides/) · [WebP Conversion Guide](https://peasyimage.com/guides/) · [All Guides](https://peasyimage.com/guides/)
-- **Glossary**: [EXIF](https://peasyimage.com/glossary/exif/) · [Aspect Ratio](https://peasyimage.com/glossary/aspect-ratio/) · [WebP](https://peasyimage.com/glossary/webp/) · [All Terms](https://peasyimage.com/glossary/)
-- **Formats**: [JPEG](https://peasyimage.com/formats/jpeg/) · [PNG](https://peasyimage.com/formats/png/) · [WebP](https://peasyimage.com/formats/webp/) · [All Formats](https://peasyimage.com/formats/)
+- **Tools**: [Resize Image](https://peasyimage.com/image/resize-image/) · [Compress Image](https://peasyimage.com/image/compress-image/) · [Convert Image](https://peasyimage.com/image/convert-image/) · [Crop Image](https://peasyimage.com/image/crop-image/) · [Watermark Image](https://peasyimage.com/image/watermark-image/) · [SVG to PNG](https://peasyimage.com/image/svg-to-png/) · [All Image Tools](https://peasyimage.com/)
+- **Guides**: [Image Format Comparison](https://peasyimage.com/guides/image-format-comparison/) · [How to Compress Images for Web](https://peasyimage.com/guides/how-to-compress-images-for-web/) · [How to Resize Without Losing Quality](https://peasyimage.com/guides/how-to-resize-images-without-losing-quality/) · [JPG vs PNG](https://peasyimage.com/guides/jpg-vs-png-which-format-to-use/) · [WebP vs JPG](https://peasyimage.com/guides/webp-vs-jpg-modern-image-formats/) · [Image Optimization Best Practices](https://peasyimage.com/guides/image-optimization-best-practices/) · [All Guides](https://peasyimage.com/guides/)
+- **Glossary**: [EXIF](https://peasyimage.com/glossary/exif/) · [Aspect Ratio](https://peasyimage.com/glossary/aspect-ratio/) · [WebP](https://peasyimage.com/glossary/webp/) · [AVIF](https://peasyimage.com/glossary/avif/) · [Alpha Channel](https://peasyimage.com/glossary/alpha-channel/) · [Lossy Compression](https://peasyimage.com/glossary/lossy-compression/) · [All Terms](https://peasyimage.com/glossary/)
+- **Formats**: [JPEG](https://peasyimage.com/formats/jpeg/) · [PNG](https://peasyimage.com/formats/png/) · [WebP](https://peasyimage.com/formats/webp/) · [AVIF](https://peasyimage.com/formats/avif/) · [TIFF](https://peasyimage.com/formats/tiff/) · [All Formats](https://peasyimage.com/formats/)
 - **API**: [REST API Docs](https://peasyimage.com/developers/) · [OpenAPI Spec](https://peasyimage.com/api/openapi.json)
 
 ## Also Available
