@@ -4,6 +4,7 @@
 [![Python](https://img.shields.io/pypi/pyversions/peasy-image)](https://pypi.org/project/peasy-image/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Dependencies: 1](https://img.shields.io/badge/dependencies-1_(Pillow)-blue)](https://pypi.org/project/peasy-image/)
+[![GitHub stars](https://agentgif.com/badge/github/peasytools/peasy-image/stars.svg)](https://github.com/peasytools/peasy-image)
 
 Python image toolkit -- 21 operations for resize, crop, rotate, compress, convert, blur, sharpen, watermark, and more. Powered by [Pillow](https://python-pillow.org/). Every function accepts `bytes | Path | str` and returns `bytes`, so it works equally well with files on disk, HTTP responses, and in-memory buffers. Outputs to 7 image formats: PNG, JPEG, WebP, GIF, BMP, TIFF, and ICO.
 
