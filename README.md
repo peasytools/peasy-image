@@ -203,7 +203,7 @@ bw = grayscale("portrait.jpg", fmt="jpeg", quality=90)
 negative = invert("photo.png")
 ```
 
-Learn more: [PeasyImage](https://peasyimage.com/) · [Gaussian Blur Glossary](https://peasyimage.com/glossary/gaussian-blur/) · [Image Guides](https://peasyimage.com/guides/)
+Learn more: [PeasyImage](https://peasyimage.com/) · [Gaussian Blur Glossary](https://peasyimage.com/glossary/) · [Image Guides](https://peasyimage.com/guides/)
 
 ### Watermarking & Overlays
 
@@ -245,7 +245,7 @@ branded = overlay(
 )
 ```
 
-Learn more: [PeasyImage](https://peasyimage.com/) · [Watermark Glossary](https://peasyimage.com/glossary/watermark/)
+Learn more: [PeasyImage](https://peasyimage.com/) · [Watermark Glossary](https://peasyimage.com/glossary/)
 
 ### Thumbnails & Padding
 
@@ -293,7 +293,7 @@ framed = border("product.png", width=4, color="#000000")
 card = round_corners("screenshot.png", radius=20)
 ```
 
-Learn more: [PeasyImage](https://peasyimage.com/) · [Image Rotation Glossary](https://peasyimage.com/glossary/rotation/)
+Learn more: [PeasyImage](https://peasyimage.com/) · [Image Rotation Glossary](https://peasyimage.com/glossary/)
 
 ### Metadata & Privacy
 
@@ -534,8 +534,8 @@ Full API documentation at [peasyimage.com/developers/](https://peasyimage.com/de
 
 ## Learn More About Image Processing
 
-- **Tools**: [Image Resize](https://peasyimage.com/tools/resize-image/) · [Image Compress](https://peasyimage.com/tools/compress-image/) · [Image Convert](https://peasyimage.com/tools/convert-image/) · [All Image Tools](https://peasyimage.com/)
-- **Guides**: [Image Compression Guide](https://peasyimage.com/guides/image-compression/) · [WebP Conversion Guide](https://peasyimage.com/guides/webp-conversion/) · [All Guides](https://peasyimage.com/guides/)
+- **Tools**: [Image Resize](https://peasyimage.com/image/resize-image/) · [Image Compress](https://peasyimage.com/image/compress-image/) · [Image Convert](https://peasyimage.com/image/convert-image/) · [All Image Tools](https://peasyimage.com/)
+- **Guides**: [Image Compression Guide](https://peasyimage.com/guides/) · [WebP Conversion Guide](https://peasyimage.com/guides/) · [All Guides](https://peasyimage.com/guides/)
 - **Glossary**: [EXIF](https://peasyimage.com/glossary/exif/) · [Aspect Ratio](https://peasyimage.com/glossary/aspect-ratio/) · [WebP](https://peasyimage.com/glossary/webp/) · [All Terms](https://peasyimage.com/glossary/)
 - **Formats**: [JPEG](https://peasyimage.com/formats/jpeg/) · [PNG](https://peasyimage.com/formats/png/) · [WebP](https://peasyimage.com/formats/webp/) · [All Formats](https://peasyimage.com/formats/)
 - **API**: [REST API Docs](https://peasyimage.com/developers/) · [OpenAPI Spec](https://peasyimage.com/api/openapi.json)
