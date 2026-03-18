@@ -13,7 +13,7 @@ Built for [peasyimage.com](https://peasyimage.com), which offers free interactiv
 > **Try the interactive tools at [peasyimage.com](https://peasyimage.com)** -- [Image Tools](https://peasyimage.com/), [Image Glossary](https://peasyimage.com/glossary/), [Image Guides](https://peasyimage.com/guides/)
 
 <p align="center">
-  <img src="demo.gif" alt="peasy-image demo — resize, compress, convert images in Python" width="800">
+  <a href="https://agentgif.com/JlzM6akv"><img src="https://media.agentgif.com/JlzM6akv.gif" alt="peasy-image demo — resize, compress, convert images in Python" width="800"></a>
 </p>
 
 ## Table of Contents
