@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.peasytools/peasy-image",
+  "description": "Python image toolkit — resize, crop, rotate, convert, compress, blur, sharpen, watermark, and 12",
+  "version": "0.2.2",
+  "repository": {
+    "url": "https://github.com/peasytools/peasy-image",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "peasy-image",
+      "version": "0.2.2",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "runtimeArguments": [
+        {
+          "type": "named",
+          "name": "--from",
+          "value": "peasy-image[mcp]"
+        },
+        {
+          "type": "positional",
+          "value": "python"
+        },
+        {
+          "type": "positional",
+          "value": "-m"
+        },
+        {
+          "type": "positional",
+          "value": "peasy_image.mcp_server"
+        }
+      ]
+    }
+  ]
+}

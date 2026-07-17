@@ -1,0 +1,10 @@
+# Smithery configuration for peasy-image
+# https://smithery.ai/docs/build/project-config
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required: []
+    properties: {}
+  commandFunction: |-
+    config => ({ command: 'uvx', args: ['--from', 'peasy-image[mcp]', 'python', '-m', 'peasy_image.mcp_server'] })
